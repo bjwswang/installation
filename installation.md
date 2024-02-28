@@ -16,15 +16,15 @@
 
 ### 0. 基础
 
-- Docker
-- Helm
-- kubectl
+- Docker(^24.0.5)
+- Helm(^3.13.1)
+- kubectl(^1.28.3)
 
 ### 1. 准备一个Kubernetes集群
 
 集群安装方式有以下几种:
 
-- [kind](https://kind.sigs.k8s.io/docs/)
+- [kind](https://kind.sigs.k8s.io/docs/)(^0.20.0)
 - [minikube](https://minikube.sigs.k8s.io/)
 - [kubeadm](https://kubernetes.io/docs/admin/kubeadm/)
 
