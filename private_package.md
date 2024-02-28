@@ -18,10 +18,17 @@
 git clone https://github.com/kubebb/components.git
 ```
 
-1. 下载kubeagi代码
+2. 下载kubeagi代码
 
 ```bash
 git clone https://github.com/kubeagi/arcadia ~/kubeagi/
+```
+
+3. 下载 gpt-operator
+
+```shell
+git clone https://github.com/NVIDIA/gpu-operator.git 
+cd gpu-operator & git checkout release-23.9
 ```
 
 ## 镜像列表
