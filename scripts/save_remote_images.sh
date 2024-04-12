@@ -4,7 +4,7 @@
 image_json="images.json"
 
 # 解析 JSON 文件并迭代处理每个 image
-cat "$image_json" | jq -r '.[]' | while read -r image
+cat "$image_json" | jq -r '.kind[]' | while read -r image
 do
   # 拉取镜像
   echo "Pulling image: $image"

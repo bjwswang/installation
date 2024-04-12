@@ -12,4 +12,6 @@ for row in $(echo "$json" | jq -r '.[] | @base64'); do
     repo_name=$(_jq '.name')
     repo_url=$(_jq '.url')
 
-    echo "Cloning $repo_name from $
+    echo "Cloning $repo_name from $repo_url"
+    git clone "$repo_url"
+done

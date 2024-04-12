@@ -1,10 +1,10 @@
 [
     {
         "name": "kubebb",
-        "url": "https://github.com/kubebb/core"
+        "url": "https://github.com/kubebb/components"
     },
     {
-        "name": "kubebb",
-        "url": "https://github.com/kubebb/core"
+        "name": "kubeagi",
+        "url": "https://github.com/kubeagi/arcadia"
     }
 ]
