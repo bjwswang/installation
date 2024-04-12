@@ -1,49 +1,39 @@
-{
-    "kind": [
-        "kindest/node:v1.24.15"
-    ],
-    "u4a": [
-        "kubebb/ingress-nginx-controller:v1.3.0",
-        "kubebb/cert-manager-controller:v1.8.0",
-        "kubebb/cert-manager-cainjector:v1.8.0",
-        "kubebb/cert-manager-webhook:v1.8.0",
-        "kubebb/iam-provider:v0.2.0-20240128",
-        "kubebb/iam-controller:v0.2.0-20240128",
-        "kubebb/oidc-server:v0.2.0",
-        "kubebb/bff-server:v0.2.0-20231204",
-        "kubebb/redis:5.0.1-alpine3.8",
-        "kubebb/resource-viewer:v0.2.0",
-        "kubebb/capsule-ce:v0.1.2-20221122",
-        "kubebb/kube-oidc-proxy-ce:v0.3.0-20221008"
-    ],
-    "kubebb": [
-        "kubebb/core:v0.1.6-20240312-69a0af9"
-    ],
-    "kubeagi": [
-        "kubeagi/arcadia:v0.2.2",
-        "kubeagi/data-processing:v0.2.2",
-        "kubeagi/arcadia-eval:v0.2.2",
-        "kubeagi/ops-console:v0.2.2",
-        "kubeagi/agent-portal:v0.1.0-20240411-e26a310",
-        "kubeagi/streamlit:v1.29.0",
-        "kubeagi/arcadia-fastchat:v0.2.36-patch",
-        "kubeagi/arcadia-fastchat-worker:v0.2.36",
-        "kubeagi/postgresql:16.1.0-debian-11-r18-pgvector-v0.5.1",
-        "kubeagi/minio-mc:RELEASE.2023-01-28T20-29-38Z",
-        "kubeagi/minio:RELEASE.2023-02-10T18-48-39Z",
-        "kubeagi/ray-ml:2.9.0-py39-vllm",
-        "kubeagi/ray-operator:v1.0.0"
-    ],
-    "gpu_operator": [
-        "kubeagi/gpu-feature-discovery:v0.8.2-ubi8",
-        "kubeagi/container-toolkit:v1.14.3-ubuntu20.04",
-        "kubeagi/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04",
-        "kubeagi/driver:535.129.03-ubuntu22.04",
-        "kuebagi/k8s-driver-manager:v0.6.5",
-        "kubeagi/k8s-mig-manager:v0.5.5-ubuntu20.04",
-        "kubeagi/k8s-device-plugin:v0.14.3-ubi8",
-        "kubeagi/gpu-operator-validator:v23.9.1",
-        "kubeagi/gpu-operator:v23.9.1",
-        "kubeagi/node-feature-discovery:v0.14.2"
-    ]
-}
+[
+    "kindest/node:v1.24.15",
+    "kubebb/ingress-nginx-controller:v1.3.0",
+    "kubebb/cert-manager-controller:v1.8.0",
+    "kubebb/cert-manager-cainjector:v1.8.0",
+    "kubebb/cert-manager-webhook:v1.8.0",
+    "kubebb/iam-provider:v0.2.0-20240128",
+    "kubebb/iam-controller:v0.2.0-20240128",
+    "kubebb/oidc-server:v0.2.0",
+    "kubebb/bff-server:v0.2.0-20231204",
+    "kubebb/redis:5.0.1-alpine3.8",
+    "kubebb/resource-viewer:v0.2.0",
+    "kubebb/capsule-ce:v0.1.2-20221122",
+    "kubebb/kube-oidc-proxy-ce:v0.3.0-20221008",
+    "kubebb/core:v0.1.6-20240312-69a0af9",
+    "kubeagi/arcadia:v0.2.2",
+    "kubeagi/data-processing:v0.2.2",
+    "kubeagi/arcadia-eval:v0.2.2",
+    "kubeagi/ops-console:v0.2.2",
+    "kubeagi/agent-portal:v0.1.0-20240411-e26a310",
+    "kubeagi/streamlit:v1.29.0",
+    "kubeagi/arcadia-fastchat:v0.2.36-patch",
+    "kubeagi/arcadia-fastchat-worker:v0.2.36",
+    "kubeagi/postgresql:16.1.0-debian-11-r18-pgvector-v0.5.1",
+    "kubeagi/minio-mc:RELEASE.2023-01-28T20-29-38Z",
+    "kubeagi/minio:RELEASE.2023-02-10T18-48-39Z",
+    "kubeagi/ray-ml:2.9.0-py39-vllm",
+    "kubeagi/ray-operator:v1.0.0",
+    "kubeagi/gpu-feature-discovery:v0.8.2-ubi8",
+    "kubeagi/container-toolkit:v1.14.3-ubuntu20.04",
+    "kubeagi/dcgm-exporter:3.3.0-3.2.0-ubuntu22.04",
+    "kubeagi/driver:535.129.03-ubuntu22.04",
+    "kuebagi/k8s-driver-manager:v0.6.5",
+    "kubeagi/k8s-mig-manager:v0.5.5-ubuntu20.04",
+    "kubeagi/k8s-device-plugin:v0.14.3-ubi8",
+    "kubeagi/gpu-operator-validator:v23.9.1",
+    "kubeagi/gpu-operator:v23.9.1",
+    "kubeagi/node-feature-discovery:v0.14.2"
+]
