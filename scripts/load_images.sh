@@ -12,4 +12,4 @@ for image_file in $image_files; do
   docker load -i $image_file
 
   echo "镜像 $image_name 加载成功"
-dones
+done
