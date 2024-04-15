@@ -13,6 +13,10 @@
     "kubebb/capsule-ce:v0.1.2-20221122",
     "kubebb/kube-oidc-proxy-ce:v0.3.0-20221008",
     "kubebb/core:v0.1.6-20240312-69a0af9",
+    "openebs/provisioner-localpv:3.3.0",
+    "openebs/node-disk-manager:2.0.0",
+    "openebs/node-disk-operator:2.0.0",
+    "openebs/linux-utils:3.3.0",
     "kubeagi/arcadia:v0.2.2",
     "kubeagi/data-processing:v0.2.2",
     "kubeagi/arcadia-eval:v0.2.2",
@@ -35,5 +39,6 @@
     "kubeagi/k8s-device-plugin:v0.14.3-ubi8",
     "kubeagi/gpu-operator-validator:v23.9.1",
     "kubeagi/gpu-operator:v23.9.1",
-    "kubeagi/node-feature-discovery:v0.14.2"
+    "kubeagi/node-feature-discovery:v0.14.2",
+    "kubeagi/llama-factory:v0.6.1"
 ]
